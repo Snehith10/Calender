@@ -1,0 +1,41 @@
+$theme_bck1 : #e3b4ff;
+$theme_bck2 : #ff8f73;
+$theme_bck3 : #9bd6fd;
+
+$my_theme: $theme_bck3;
+
+.menu_bar {
+    .menu_list {
+        display:flex;
+        .list_item{
+            font-size: 1.0em;
+            // font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            font-weight: 500;
+            background-color: rgb(202, 196, 196);
+            flex:1;
+            padding:5px;
+            border: solid 1px white;
+        }
+    }
+}
+.day_box{
+    .day_list{
+        .target_container{
+            .week{
+                display:flex;
+                .day{
+                    font-size: 1.0em;
+                    // font-family: Arial, Helvetica, sans-serif;
+                    text-align: center;
+                    font-weight: 500;
+                    background-color: rgb(202, 196, 196);
+                    flex:1;
+                    padding:5px;
+                    border: solid 1px white;
+                    height: 40px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,28 @@
+.menu_bar .menu_list {
+  display: flex;
+}
+.menu_bar .menu_list .list_item {
+  font-size: 1em;
+  text-align: center;
+  font-weight: 500;
+  background-color: #cac4c4;
+  flex: 1;
+  padding: 5px;
+  border: solid 1px white;
+}
+
+.day_box .day_list .target_container .week {
+  display: flex;
+}
+.day_box .day_list .target_container .week .day {
+  font-size: 1em;
+  text-align: center;
+  font-weight: 500;
+  background-color: #cac4c4;
+  flex: 1;
+  padding: 5px;
+  border: solid 1px white;
+  height: 40px;
+}
+
+/*# sourceMappingURL=main.css.map */
